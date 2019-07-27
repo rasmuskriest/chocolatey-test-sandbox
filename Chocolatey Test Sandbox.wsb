@@ -1,0 +1,15 @@
+<Configuration>
+    <VGpu>Default</VGpu>
+    <Networking>Default</Networking>
+    <MappedFolders>
+        <MappedFolder>
+            <!-- Add the path to the cloned Git repository as HostFolder below -->
+            <HostFolder>D:\chocolatey-test-sandbox</HostFolder>
+            <ReadOnly>true</ReadOnly>
+        </MappedFolder>
+    </MappedFolders>
+    <LogonCommand>
+        <!-- The following is run as logon script -->
+        <Command>C:\Users\WDAGUtilityAccount\Desktop\chocolatey-test-sandbox\choco-test.bat</Command>
+    </LogonCommand>
+</Configuration>
